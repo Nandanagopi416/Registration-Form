@@ -3,7 +3,11 @@ body{
     height: 100vh;
     background-color: #1b1b32;
     color: #f5f6f7;
+<<<<<<< HEAD
     margin: 0%;
+=======
+    padding: 0%;
+>>>>>>> 31011b44f7396a9aa05cb5cbb8351cb82bb7db4a
 }
 label{
     display: block;
