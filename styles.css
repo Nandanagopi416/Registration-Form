@@ -4,7 +4,12 @@ body{
     background-color: #1b1b32;
     color: #f5f6f7;
     margin: 0;
+    font: 16px Tahoma;
 }
 label{
     display: block;
+}
+h1,p{
+    margin: 1em auto;
+    text-align: center;
 }
