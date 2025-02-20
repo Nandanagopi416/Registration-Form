@@ -20,9 +20,28 @@
                 <label for="personal-account"><input type="radio" name="account-type" id="personal-account" required> Personal</label>
                 <label for="business-account"><input type="radio" name="account-type" id="business-account"> Business</label>
             </fieldset>
-            <fieldset></fieldset>
+            <fieldset>
+                <label for="profile-picture">
+                    Upload a profile picture: <input type="file" id="profile-picture">
+                </label>
+                <label for="age">
+                    What is your age(years): <input type="number" min="13" max="120" id="age">
+                </label>
+                <label for="referrer">
+                    <select id="referrer">
+                        <option value="">(select one)</option>
+                        <option value="1">News</option>
+                        <option value="2">YouTube</option>
+                        <option value="3">Forum</option>
+                        <option value="4">Other</option>                        
+                    </select>
+                </label>
+                <label for="bio">Bio:
+                    <textarea id="bio" rows="3" cols="30"></textarea>
+                </label>
+            </fieldset>
             <label>
-                <input type="checkbox"> I accept the <a href="https://www.freecodecamp.org/">terms and conditions.</a>
+                <input type="checkbox" required> I accept the <a href="https://www.freecodecamp.org/">terms and conditions.</a>
             </label>
             <input type="submit" value="Submit">
         </form>
