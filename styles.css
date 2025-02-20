@@ -8,8 +8,14 @@ body{
 }
 label{
     display: block;
+    margin: 0.5rem auto;
 }
 h1,p{
-    margin: 1em auto;
+    margin: 1rem auto;
     text-align: center;
+}
+form{
+    max-width: 500px;
+    min-width: 300px;
+    width: 60vw;
 }
