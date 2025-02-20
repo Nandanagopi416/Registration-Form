@@ -15,6 +15,7 @@ h1,p{
     text-align: center;
 }
 form{
+    margin: 1rem auto;
     max-width: 500px;
     min-width: 300px;
     width: 60vw;
