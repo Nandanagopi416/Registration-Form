@@ -40,6 +40,6 @@ input,textarea{
 }
 .inline{
     width: unset;
-    vertical-align: center;
+    vertical-align: middle;
     margin: 0 0.5em 0 0;
 }
