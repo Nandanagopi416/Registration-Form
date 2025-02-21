@@ -35,4 +35,5 @@ input,select,textarea{
 input,textarea{
     background-color: #0b0b23;
     color: #ffffff;
+    border-color: #0b0b23;
 }
