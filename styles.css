@@ -52,3 +52,9 @@ input[type="submit"] {
     margin: 1em auto;
     height: 2rem;
 }
+form{
+    padding: 2em;
+}
+input[type="file"]{
+    padding: 1px 2px;
+}
