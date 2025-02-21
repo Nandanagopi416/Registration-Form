@@ -30,4 +30,9 @@ fieldset:last-of-type{ border-bottom: none; }
 input,select,textarea{
     width: 100%;
     margin: 10px 0;
+    background-color: ;
+}
+input,textarea{
+    background-color: #0b0b23;
+    color: #ffffff;
 }
